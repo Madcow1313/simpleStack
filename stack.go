@@ -1,6 +1,6 @@
-/*Simple implementation of stack using generics*/
 package Stack
 
+// Simple implementation of stack using generics
 type Stack[T interface{}] []T
 
 // Check if stack is empty
